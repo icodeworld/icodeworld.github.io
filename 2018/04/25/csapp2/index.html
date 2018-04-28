@@ -5,7 +5,7 @@
 
 
 
-<html class="theme-next gemini use-motion" lang="">
+<html class="theme-next pisces use-motion" lang="">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -81,13 +81,13 @@
 
 
 
-<meta name="description" content="Welcome to http://hjgujin.com,you will learn some computer operation knownledge in this place,next enjoy yourself! Quick StartChapter two##Digital representation ###1.1. PRINCIPLE: Definition of unsig">
+<meta name="description" content="Welcome to http://hjgujin.com,you will learn some computer operation knownledge in this place,next enjoy yourself! Quick StartChapter twoDigital representation1.1 PRINCIPLE: Definition of unsigned enc">
 <meta name="keywords" content="operation">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Integer Arithmetic">
 <meta property="og:url" content="http://yoursite.com/2018/04/25/csapp2/index.html">
 <meta property="og:site_name" content="Grow up">
-<meta property="og:description" content="Welcome to http://hjgujin.com,you will learn some computer operation knownledge in this place,next enjoy yourself! Quick StartChapter two##Digital representation ###1.1. PRINCIPLE: Definition of unsig">
+<meta property="og:description" content="Welcome to http://hjgujin.com,you will learn some computer operation knownledge in this place,next enjoy yourself! Quick StartChapter twoDigital representation1.1 PRINCIPLE: Definition of unsigned enc">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://i.imgur.com/QQkpvoV.png">
 <meta property="og:image" content="https://i.imgur.com/cCDVaxt.png">
@@ -99,10 +99,10 @@
 <meta property="og:image" content="https://i.imgur.com/VdoiIQM.png">
 <meta property="og:image" content="https://i.imgur.com/a9zVdii.png">
 <meta property="og:image" content="https://i.imgur.com/7B0Brv0.png">
-<meta property="og:updated_time" content="2018-04-28T01:58:45.436Z">
+<meta property="og:updated_time" content="2018-04-28T17:16:50.520Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Integer Arithmetic">
-<meta name="twitter:description" content="Welcome to http://hjgujin.com,you will learn some computer operation knownledge in this place,next enjoy yourself! Quick StartChapter two##Digital representation ###1.1. PRINCIPLE: Definition of unsig">
+<meta name="twitter:description" content="Welcome to http://hjgujin.com,you will learn some computer operation knownledge in this place,next enjoy yourself! Quick StartChapter twoDigital representation1.1 PRINCIPLE: Definition of unsigned enc">
 <meta name="twitter:image" content="https://i.imgur.com/QQkpvoV.png">
 
 
@@ -111,14 +111,14 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
+    scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
-      userId: '2161929',
+      userId: 'undefined',
       author: 'Author'
     },
     algolia: {
@@ -141,6 +141,24 @@
 
   <title>Integer Arithmetic | Grow up</title>
   
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net//sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 
 
 
@@ -337,8 +355,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2018/04/25/csapp2/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/04/25/csapp2/" itemprop="commentCount"></span>
+                  <span class="post-comments-count fb-comments-count" data-href="http://yoursite.com/2018/04/25/csapp2/" itemprop="commentCount">0</span> comments
                 </a>
               </span>
             
@@ -367,36 +384,24 @@
 
       
         <p>Welcome to <a href="http://hjgujin.com" target="_blank" rel="noopener">http://hjgujin.com</a>,you will learn some computer operation knownledge in this place,next enjoy yourself!</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Chapter-two"><a href="#Chapter-two" class="headerlink" title="Chapter two"></a>Chapter two</h3><p>##</p><p>Digital representation</p>
-<p>###1.1. PRINCIPLE: Definition of unsigned encoding<br>For vector</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Chapter-two"><a href="#Chapter-two" class="headerlink" title="Chapter two"></a>Chapter two</h3><h2 id="Digital-representation"><a href="#Digital-representation" class="headerlink" title="Digital representation"></a>Digital representation</h2><h3 id="1-1-PRINCIPLE-Definition-of-unsigned-encoding"><a href="#1-1-PRINCIPLE-Definition-of-unsigned-encoding" class="headerlink" title="1.1 PRINCIPLE: Definition of unsigned encoding"></a>1.1 PRINCIPLE: Definition of unsigned encoding</h3><p>For vector</p>
 <p><img src="https://i.imgur.com/QQkpvoV.png" alt=""></p>
 <p><img src="https://i.imgur.com/cCDVaxt.png" alt=""></p>
-<p>###1.2. PRINCIPLE: Definition of two’s-complement encoding<br>For vector</p>
+<h3 id="1-2-PRINCIPLE-Definition-of-two’s-complement-encoding"><a href="#1-2-PRINCIPLE-Definition-of-two’s-complement-encoding" class="headerlink" title="1.2 PRINCIPLE: Definition of two’s-complement encoding"></a>1.2 PRINCIPLE: Definition of two’s-complement encoding</h3><p>For vector</p>
 <p><img src="https://i.imgur.com/QQkpvoV.png" alt=""></p>
 <p><img src="https://i.imgur.com/YhSj8eb.png" alt=""></p>
-<p>###1.3. PRINCIPLE: Conversion from two’s complement to unsigned </p>
-<p>For x such that TMIN&lt;=x&lt;=TMAX:</p>
+<h3 id="1-3-PRINCIPLE-Conversion-from-two’s-complement-to-unsigned"><a href="#1-3-PRINCIPLE-Conversion-from-two’s-complement-to-unsigned" class="headerlink" title="1.3 PRINCIPLE: Conversion from two’s complement to unsigned"></a>1.3 PRINCIPLE: Conversion from two’s complement to unsigned</h3><p>For x such that TMIN&lt;=x&lt;=TMAX:</p>
 <p><img src="https://i.imgur.com/GP14SwC.png" alt=""></p>
-<p>###1.4. PRINCIPLE: Unsigned to two’s-complement conversion</p>
-<p>For u such that 0&lt;=u&lt;=UMAX:</p>
+<h3 id="1-4-PRINCIPLE-Unsigned-to-two’s-complement-conversion"><a href="#1-4-PRINCIPLE-Unsigned-to-two’s-complement-conversion" class="headerlink" title="1.4 PRINCIPLE: Unsigned to two’s-complement conversion"></a>1.4 PRINCIPLE: Unsigned to two’s-complement conversion</h3><p>For u such that 0&lt;=u&lt;=UMAX:</p>
 <p><img src="https://i.imgur.com/GBVZ11Q.png" alt=""></p>
-<p>##</p><p>Arithmetic operation</p>
-<p>###2.1. PRINCILE: Unsigned addition</p>
-<p>For x and y such that 0 &lt;=x,y&lt;2^w:</p>
+<h2 id="Arithmetic-operation"><a href="#Arithmetic-operation" class="headerlink" title="Arithmetic operation"></a>Arithmetic operation</h2><h3 id="2-1-PRINCILE-Unsigned-addition"><a href="#2-1-PRINCILE-Unsigned-addition" class="headerlink" title="2.1 PRINCILE: Unsigned addition"></a>2.1 PRINCILE: Unsigned addition</h3><p>For x and y such that 0 &lt;=x,y&lt;2^w:</p>
 <p><img src="https://i.imgur.com/IMsBGnW.png" alt=""></p>
-<p>###2.2. PRINCIPLE: Unsigned negation</p>
-<p>For any number x such that 0&lt;=x&lt;2^w,its w-bit unsigned negation is given by the following:</p>
+<h3 id="2-2-PRINCIPLE-Unsigned-negation"><a href="#2-2-PRINCIPLE-Unsigned-negation" class="headerlink" title="2.2 PRINCIPLE: Unsigned negation"></a>2.2 PRINCIPLE: Unsigned negation</h3><p>For any number x such that 0&lt;=x&lt;2^w,its w-bit unsigned negation is given by the following:</p>
 <p><img src="https://i.imgur.com/VdoiIQM.png" alt=""></p>
-<p>###2.3. PRINCIPLE: Two’s complement addition</p>
-<p>For integer values x and y in the range -2^(w-1)&lt;=x,y&lt;=2^(w-1)-1:</p>
+<h3 id="2-3-PRINCIPLE-Two’s-complement-addition"><a href="#2-3-PRINCIPLE-Two’s-complement-addition" class="headerlink" title="2.3 PRINCIPLE: Two’s complement addition"></a>2.3 PRINCIPLE: Two’s complement addition</h3><p>For integer values x and y in the range -2^(w-1)&lt;=x,y&lt;=2^(w-1)-1:</p>
 <p><img src="https://i.imgur.com/a9zVdii.png" alt=""></p>
-<p>###2.4 PRINCIPLE: Two’s-complement negation</p>
-<p>For x in the range TMIN&lt;=x&lt;=TMAX,its two’s-complement negation is given by the formula:</p>
+<h3 id="2-4-PRINCIPLE-Two’s-complement-negation"><a href="#2-4-PRINCIPLE-Two’s-complement-negation" class="headerlink" title="2.4 PRINCIPLE: Two’s-complement negation"></a>2.4 PRINCIPLE: Two’s-complement negation</h3><p>For x in the range TMIN&lt;=x&lt;=TMAX,its two’s-complement negation is given by the formula:</p>
 <p><img src="https://i.imgur.com/7B0Brv0.png" alt=""></p>
-<!-- JiaThis Button BEGIN -->
-<p><div class="jiathis_style_24x24"><br>    <a class="jiathis_button_qzone"></a><br>    <a class="jiathis_button_tsina"></a><br>    <a class="jiathis_button_tqq"></a><br>    <a class="jiathis_button_weixin"></a><br>    <a class="jiathis_button_renren"></a><br>    <a href="http://www.jiathis.com/share?uid=2161929" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a><br>    <a class="jiathis_counter_style"></a><br></div></p>
-<p><script type="text/javascript"><br>var jiathis_config = {data_track_clickback:’true’};<br></script></p>
-<p><script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js?uid=2161929" charset="utf-8"></script><br><!-- JiaThis Button END --></p>
 
       
     </div>
@@ -438,14 +443,29 @@
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    Hujie
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://yoursite.com/2018/04/25/csapp2/" title="Integer Arithmetic">http://yoursite.com/2018/04/25/csapp2/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
 	  <div>
       
         
 
-Author：Hujie
-Link：https://hjgujin.com
-Source：Markdown
-Copyright belongs to the author. Commercial reprint please contact author authorize, non-commercial reprint please indicate the source.
+
       
       </div>
 	  
@@ -467,6 +487,21 @@ Copyright belongs to the author. Commercial reprint please contact author author
       
 
       
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </span>
+          </div>
+        
+        </div>
       
       
 
@@ -513,11 +548,11 @@ Copyright belongs to the author. Commercial reprint please contact author author
 
   
     <div class="comments" id="comments">
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
+      <div class="fb-comments"
+           data-href="http://yoursite.com/2018/04/25/csapp2/"
+           data-numposts="10"
+           data-width="100%"
+           data-colorscheme="light">
       </div>
     </div>
 
@@ -635,7 +670,7 @@ Copyright belongs to the author. Commercial reprint please contact author author
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Chapter-two"><span class="nav-number">1.1.</span> <span class="nav-text">Chapter two</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Chapter-two"><span class="nav-number">1.1.</span> <span class="nav-text">Chapter two</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Digital-representation"><span class="nav-number">2.</span> <span class="nav-text">Digital representation</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-PRINCIPLE-Definition-of-unsigned-encoding"><span class="nav-number">2.1.</span> <span class="nav-text">1.1 PRINCIPLE: Definition of unsigned encoding</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-PRINCIPLE-Definition-of-two’s-complement-encoding"><span class="nav-number">2.2.</span> <span class="nav-text">1.2 PRINCIPLE: Definition of two’s-complement encoding</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-PRINCIPLE-Conversion-from-two’s-complement-to-unsigned"><span class="nav-number">2.3.</span> <span class="nav-text">1.3 PRINCIPLE: Conversion from two’s complement to unsigned</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-PRINCIPLE-Unsigned-to-two’s-complement-conversion"><span class="nav-number">2.4.</span> <span class="nav-text">1.4 PRINCIPLE: Unsigned to two’s-complement conversion</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Arithmetic-operation"><span class="nav-number">3.</span> <span class="nav-text">Arithmetic operation</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-PRINCILE-Unsigned-addition"><span class="nav-number">3.1.</span> <span class="nav-text">2.1 PRINCILE: Unsigned addition</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-PRINCIPLE-Unsigned-negation"><span class="nav-number">3.2.</span> <span class="nav-text">2.2 PRINCIPLE: Unsigned negation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-PRINCIPLE-Two’s-complement-addition"><span class="nav-number">3.3.</span> <span class="nav-text">2.3 PRINCIPLE: Two’s complement addition</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-PRINCIPLE-Two’s-complement-negation"><span class="nav-number">3.4.</span> <span class="nav-text">2.4 PRINCIPLE: Two’s-complement negation</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -673,7 +708,7 @@ Copyright belongs to the author. Commercial reprint please contact author author
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -697,6 +732,12 @@ Copyright belongs to the author. Commercial reprint please contact author author
       </div>
     
 
+    
+      <div id="needsharebutton-float">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
     
 
   </div>
@@ -862,6 +903,43 @@ Copyright belongs to the author. Commercial reprint please contact author author
   
 
   
+  
+  
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
+  
+  
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+
+  <script>
+    
+      pbOptions = {};
+      
+          pbOptions.iconStyle = "default";
+      
+          pbOptions.boxForm = "horizontal";
+      
+          pbOptions.position = "bottomCenter";
+      
+          pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+      flOptions = {};
+      
+          flOptions.iconStyle = "default";
+      
+          flOptions.boxForm = "horizontal";
+      
+          flOptions.position = "middleRight";
+      
+          flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-float', flOptions);
+    
+  </script>
+
   
 
   
