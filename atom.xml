@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-29T04:01:06.889Z</updated>
+  <updated>2018-04-28T01:37:02.787Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Integer Arithmetic</title>
-    <link href="http://yoursite.com/2018/04/25/csapp2/"/>
-    <id>http://yoursite.com/2018/04/25/csapp2/</id>
-    <published>2018-04-25T06:22:29.000Z</published>
-    <updated>2018-04-29T04:01:06.889Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hjgujin.com" target="_blank" rel="noopener">http://hjgujin.com</a>,you will learn some computer operation knownledge in this place,next enjoy yourself!</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Chapter-two"><a href="#Chapter-two" class="headerlink" title="Chapter two"></a>Chapter two</h3><h2 id="Digital-representation"><a href="#Digital-representation" class="headerlink" title="Digital representation"></a>Digital representation</h2><h3 id="PRINCIPLE-Definition-of-unsigned-encoding"><a href="#PRINCIPLE-Definition-of-unsigned-encoding" class="headerlink" title="PRINCIPLE: Definition of unsigned encoding"></a>PRINCIPLE: Definition of unsigned encoding</h3><p>For vector</p><p><img src="https://i.imgur.com/QQkpvoV.png" alt=""></p><p><img src="https://i.imgur.com/cCDVaxt.png" alt=""></p><h3 id="PRINCIPLE-Definition-of-two’s-complement-encoding"><a href="#PRINCIPLE-Definition-of-two’s-complement-encoding" class="headerlink" title="PRINCIPLE: Definition of two’s-complement encoding"></a>PRINCIPLE: Definition of two’s-complement encoding</h3><p>For vector</p><p><img src="https://i.imgur.com/QQkpvoV.png" alt=""></p><p><img src="https://i.imgur.com/YhSj8eb.png" alt=""></p><h3 id="PRINCIPLE-Conversion-from-two’s-complement-to-unsigned"><a href="#PRINCIPLE-Conversion-from-two’s-complement-to-unsigned" class="headerlink" title="PRINCIPLE: Conversion from two’s complement to unsigned"></a>PRINCIPLE: Conversion from two’s complement to unsigned</h3><p>For x such that TMIN&lt;=x&lt;=TMAX:</p><p><img src="https://i.imgur.com/GP14SwC.png" alt=""></p><h3 id="PRINCIPLE-Unsigned-to-two’s-complement-conversion"><a href="#PRINCIPLE-Unsigned-to-two’s-complement-conversion" class="headerlink" title="PRINCIPLE: Unsigned to two’s-complement conversion"></a>PRINCIPLE: Unsigned to two’s-complement conversion</h3><p>For u such that 0&lt;=u&lt;=UMAX:</p><p><img src="https://i.imgur.com/GBVZ11Q.png" alt=""></p><h2 id="Arithmetic-operation"><a href="#Arithmetic-operation" class="headerlink" title="Arithmetic operation"></a>Arithmetic operation</h2><h3 id="PRINCILE-Unsigned-addition"><a href="#PRINCILE-Unsigned-addition" class="headerlink" title="PRINCILE: Unsigned addition"></a>PRINCILE: Unsigned addition</h3><p>For x and y such that 0 &lt;=x,y&lt;2^w:</p><p><img src="https://i.imgur.com/IMsBGnW.png" alt=""></p><h3 id="PRINCIPLE-Unsigned-negation"><a href="#PRINCIPLE-Unsigned-negation" class="headerlink" title="PRINCIPLE: Unsigned negation"></a>PRINCIPLE: Unsigned negation</h3><p>For any number x such that 0&lt;=x&lt;2^w,its w-bit unsigned negation is given by the following:</p><p><img src="https://i.imgur.com/VdoiIQM.png" alt=""></p><h3 id="PRINCIPLE-Two’s-complement-addition"><a href="#PRINCIPLE-Two’s-complement-addition" class="headerlink" title="PRINCIPLE: Two’s complement addition"></a>PRINCIPLE: Two’s complement addition</h3><p>For integer values x and y in the range -2^(w-1)&lt;=x,y&lt;=2^(w-1)-1:</p><p><img src="https://i.imgur.com/a9zVdii.png" alt=""></p><h3 id="PRINCIPLE-Two’s-complement-negation"><a href="#PRINCIPLE-Two’s-complement-negation" class="headerlink" title="PRINCIPLE: Two’s-complement negation"></a>PRINCIPLE: Two’s-complement negation</h3><p>For x in the range TMIN&lt;=x&lt;=TMAX,its two’s-complement negation is given by the formula:</p><p><img src="https://i.imgur.com/7B0Brv0.png" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;http://hjgujin.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://hjgujin.com&lt;/a&gt;,you will learn some computer operation know
-      
-    
-    </summary>
-    
-      <category term="learn/os" scheme="http://yoursite.com/categories/learn-os/"/>
-    
-    
-      <category term="operation" scheme="http://yoursite.com/tags/operation/"/>
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>

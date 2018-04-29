@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Integer Arithmetic]]></title>
-    <url>%2F2018%2F04%2F25%2Fcsapp2%2F</url>
-    <content type="text"><![CDATA[Welcome to http://hjgujin.com,you will learn some computer operation knownledge in this place,next enjoy yourself! Quick StartChapter twoDigital representationPRINCIPLE: Definition of unsigned encodingFor vector PRINCIPLE: Definition of two’s-complement encodingFor vector PRINCIPLE: Conversion from two’s complement to unsignedFor x such that TMIN&lt;=x&lt;=TMAX: PRINCIPLE: Unsigned to two’s-complement conversionFor u such that 0&lt;=u&lt;=UMAX: Arithmetic operationPRINCILE: Unsigned additionFor x and y such that 0 &lt;=x,y&lt;2^w: PRINCIPLE: Unsigned negationFor any number x such that 0&lt;=x&lt;2^w,its w-bit unsigned negation is given by the following: PRINCIPLE: Two’s complement additionFor integer values x and y in the range -2^(w-1)&lt;=x,y&lt;=2^(w-1)-1: PRINCIPLE: Two’s-complement negationFor x in the range TMIN&lt;=x&lt;=TMAX,its two’s-complement negation is given by the formula:]]></content>
-      <categories>
-        <category>learn/os</category>
-      </categories>
-      <tags>
-        <tag>operation</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F04%2F24%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
