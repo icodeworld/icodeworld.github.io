@@ -41,4 +41,29 @@
     
   </entry>
   
+  <entry>
+    <title>Integer Arithmetic</title>
+    <link href="http://yoursite.com/2018/04/25/new-draft/"/>
+    <id>http://yoursite.com/2018/04/25/new-draft/</id>
+    <published>2018-04-25T06:22:29.000Z</published>
+    <updated>2018-09-08T14:17:30.175Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hjgujin.com" target="_blank" rel="noopener">http://hjgujin.com</a>,you will learn some computer operation knownledge in this place,next enjoy yourself!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;http://hjgujin.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://hjgujin.com&lt;/a&gt;,you will learn some computer operation know
+      
+    
+    </summary>
+    
+      <category term="learn/os" scheme="http://yoursite.com/categories/learn-os/"/>
+    
+    
+      <category term="operation" scheme="http://yoursite.com/tags/operation/"/>
+    
+  </entry>
+  
 </feed>
